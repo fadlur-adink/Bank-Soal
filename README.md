@@ -42,6 +42,7 @@ Aplikasi ini terdiri dari 7 mata pelajaran umum untuk 6 kelas dari kelas 1 sampa
 
 - Soal diambil dari database dan ditampilkan secara acak.
 - Jumlah soal saat ini 1173 soal untuk semua mata pelajaran dan kelas
+- Aplikasi ini menggunakan backend dari [Rest-Api dan Admin Panel](https://github.com/fadlur-adink/rest-api-dan-admin-panel-bank-soal/tree/master)
 
 ## Screenshot
 
