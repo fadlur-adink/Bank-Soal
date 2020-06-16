@@ -5,9 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.style.ImageSpan;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -27,7 +31,7 @@ import java.util.Map;
 
 public class ScoreActivity extends AppCompatActivity{
 
-    Button  btnbacktomenu, buttoncobalagi;
+    ImageButton btnbacktomenu, buttoncobalagi;
     TextView lblpengumuman, lblsisanyawa, lbltotalscore, lblsisawaktu, lblscore;
     ImageView imageViewhasil;
 
@@ -58,8 +62,10 @@ public class ScoreActivity extends AppCompatActivity{
         lbltotalscore = (TextView) findViewById(R.id.lbltotalscore);
         lblsisawaktu = (TextView) findViewById(R.id.lblsisawaktu);
         lblscore = (TextView) findViewById(R.id.lblscoreakhir);
-        btnbacktomenu = (Button) findViewById(R.id.btnbacktomenu);
-        buttoncobalagi = (Button) findViewById(R.id.btncobalagi);
+
+        btnbacktomenu = (ImageButton) findViewById(R.id.btnbacktomenu);
+        buttoncobalagi = (ImageButton) findViewById(R.id.btncobalagi);
+
         imageViewhasil = (ImageView) findViewById(R.id.imghasil);
 
         totalscore = sisawaktu + sisanyawa + score;

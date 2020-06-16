@@ -110,33 +110,35 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="5dp"
         android:layout_gravity="center_horizontal">
 
-        <Button
+        <ImageButton
             android:id="@+id/btnbacktomenu"
-            android:layout_width="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="Menu Utama"
-            android:textSize="19sp"
-            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:drawableEnd="@drawable/ic_home_black_24dp"
-            android:background="@drawable/buttonbacktohome"
-            android:layout_marginTop="10dp"/>
+            android:src="@drawable/ic_home_black_24dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp" android:layout_margin="15dp"
+            android:background="@drawable/buttonbacktohome" />
 
-        <Button
+        <ImageButton
             android:id="@+id/btncobalagi"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="Coba Lagi "
-            android:drawableEnd="@drawable/ic_loop_black_50dp"
-            android:textSize="19sp"
-            android:padding="10dp"
-            android:background="@drawable/buttonbacktohome"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"/>
+            android:src="@drawable/ic_loop_black_50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/buttonbacktohome" />
 
     </LinearLayout>
 
