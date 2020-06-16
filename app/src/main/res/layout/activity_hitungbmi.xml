@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    tools:context=".Activity.hitungbmi"
+    android:gravity="center"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/txtBeratBadan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/border"
+        android:hint="Isikan berat badan (kg)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtTinggiBadan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:ems="10"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border"
+        android:hint="Isikan tinggi badan (m)"
+        android:inputType="number|numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCekBMI"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_button"
+        android:layout_marginBottom="10dp"
+        android:text="CEK BMI" />
+
+    <TextView
+        android:id="@+id/lblStatusbadan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Status Badan"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/lblbmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI Anda : "
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+</LinearLayout>

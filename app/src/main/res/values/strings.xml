@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bank Soal</string>
+    <string name="mapelindo">Bahasa Indonesia</string>
+    <string name="mapelmtk">Matematika</string>
+    <string name="mapelpkn">Pendidikan Kewarganegaraan (PKN)</string>
+    <string name="mapelipa">Ilmu Pengetahuan Alam (IPA)</string>
+    <string name="mapelips">Ilmu Pengetahuan Sosial (IPS)</string>
+    <string name="mapelsbdp">Seni Budaya dan Prakarya (SBdP)</string>
+    <string name="mapelpjok">Pendidikan Jasmani Olahraga Kesehatan (PJOK)</string>
+</resources>

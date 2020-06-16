@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFEB3B</color>
+    <color name="colorPrimaryDark">#FFFFEB3B</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="background">#FFEF9C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lightPink">#F38977</color>
+    <color name="header_text">#262626</color>
+    <color name="header_text_item">#4a4a4a</color>
+    <color name="bgpanel">#e3e3e3</color>
+    <color name="highscore">#673AB7</color>
+</resources>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.QuizActivity">
+
+    <RelativeLayout
+        android:id="@+id/quizheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layoutborder"
+        android:layout_margin="10dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/lblnyawa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nyawa"
+            android:layout_marginLeft="9dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_alignParentLeft="true"
+            android:id="@+id/imgnyawa"
+            android:layout_below="@+id/lblnyawa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_favorite_yellow_60dp"/>
+
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:id="@+id/lblsisanyawa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imgnyawa"
+            android:layout_alignTop="@+id/imgnyawa"
+            android:layout_alignRight="@+id/imgnyawa"
+            android:layout_alignBottom="@+id/imgnyawa"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:layout_marginTop="14dp"
+            android:text="99"/>
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imgwaktu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_radio_button_unchecked_black_24dp"/>
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/lblwaktu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imgwaktu"
+            android:layout_alignTop="@+id/imgwaktu"
+            android:layout_alignRight="@+id/imgwaktu"
+            android:layout_alignBottom="@+id/imgwaktu"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:layout_marginTop="28dp"
+            android:text="99"/>
+
+        <TextView
+            android:id="@+id/lblskor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skor"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="13dp"
+            android:layout_alignParentRight="true"/>
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:id="@+id/imgscore"
+            android:layout_below="@+id/lblskor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cloud_tellow_60dp"/>
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/lblscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imgscore"
+            android:layout_alignTop="@+id/imgscore"
+            android:layout_alignRight="@+id/imgscore"
+            android:layout_alignBottom="@+id/imgscore"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:layout_marginTop="17dp"
+            android:text="99"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layoutborder"
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/lblsisasoal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Soal 99/99"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/imgsoal"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/lblsoal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="23sp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat mattis tortor semper accumsan. Sed tortor justo, tincidunt ac vehicula eu, fringilla et quam. Pellentesque posuere ipsum a tristique tempor."/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnjawabana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pilihan A"
+                    android:textSize="23sp"
+                    android:textAllCaps="false"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/borderbutton"/>
+
+                <Button
+                    android:id="@+id/btnjawabanb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pilihan B"
+                    android:textSize="23sp"
+                    android:textAllCaps="false"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/borderbutton"/>
+
+                <Button
+                    android:id="@+id/btnjawabanc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pilihan C"
+                    android:textSize="23sp"
+                    android:textAllCaps="false"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/borderbutton"/>
+
+                <Button
+                    android:id="@+id/btnjawaband"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pilihan D"
+                    android:textSize="23sp"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/borderbutton"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
