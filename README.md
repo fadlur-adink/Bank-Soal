@@ -45,4 +45,4 @@ Aplikasi ini terdiri dari 7 mata pelajaran umum untuk 6 kelas dari kelas 1 sampa
 
 ## Screenshot
 
-![Alt text]https://user-images.githubusercontent.com/62935709/84744059-f5386080-afdc-11ea-839e-9a72fc461875.png
+![Alt text](https://user-images.githubusercontent.com/62935709/84744059-f5386080-afdc-11ea-839e-9a72fc461875.png?raw=true&s=100 "Home Screen")
