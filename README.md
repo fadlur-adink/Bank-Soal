@@ -44,6 +44,10 @@ Aplikasi ini terdiri dari 7 mata pelajaran umum untuk 6 kelas dari kelas 1 sampa
 - Jumlah soal saat ini 1173 soal untuk semua mata pelajaran dan kelas
 - Aplikasi ini menggunakan backend dari [Rest-Api dan Admin Panel](https://github.com/fadlur-adink/rest-api-dan-admin-panel-bank-soal/tree/master)
 
+## Download APK
+
+[Versi Alpha - Menu Tentang Belum Mau](https://drive.google.com/file/d/1JoW7opYPJYvaMMXBTKfvWAJUk0eG_QR9/view?usp=sharing)
+
 ## Screenshot
 
 <img src="https://user-images.githubusercontent.com/62935709/84744077-fa95ab00-afdc-11ea-8828-1c8e2ad7af32.png" width="200">  <img src="https://user-images.githubusercontent.com/62935709/84744059-f5386080-afdc-11ea-839e-9a72fc461875.png" width="200">  <img src="https://user-images.githubusercontent.com/62935709/84744084-fbc6d800-afdc-11ea-9e31-2a085688e30e.png" width="200">  <img src="https://user-images.githubusercontent.com/62935709/84744064-f8335100-afdc-11ea-9cec-7be8e208bef6.png" width="200">  <img src="https://user-images.githubusercontent.com/62935709/84744071-f9647e00-afdc-11ea-9468-d959b5bad774.png" width="200">  <img src="https://user-images.githubusercontent.com/62935709/84744075-f9fd1480-afdc-11ea-9597-1577b8ea9020.png" width="200">
