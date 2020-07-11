@@ -46,7 +46,7 @@ Aplikasi ini terdiri dari 7 mata pelajaran umum untuk 6 kelas dari kelas 1 sampa
 
 ## Download APK
 
-[Versi Alpha - Menu Tentang Belum Mau](https://drive.google.com/file/d/1JoW7opYPJYvaMMXBTKfvWAJUk0eG_QR9/view?usp=sharing)
+[Bank Soal](https://github.com/fadlur-adink/Bank-Soal/raw/master/BankSoal.apk)
 
 ## Screenshot
 
