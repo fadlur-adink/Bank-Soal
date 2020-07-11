@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/bgapps"
+    tools:context=".ActivityTentang">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tentang Aplikasi"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:layout_margin="10dp"
+                    android:text="Pada aplikasi ini anda perlu mengerjakan quiz untuk naik kelas. Anda akan mulai dari level/kelas 1, untuk naik ke kelas berikutnya anda perlu menyelesaikan quiz. "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:layout_margin="10dp"
+                    android:text="Setiap kelas terdapat 7 mata pelajaran untuk di selesaikan jika anda berhasil menyelesaikan 7 mata pelajaran maka anda akan naik ke level berikutnya hingga maksimal user dapat naik ke kelas 6. "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:layout_margin="10dp"
+                    android:text="Setiap pengerjaan quiz anda akan mendapatkan 3 kali kesempatan salah dan 10 menit waktu mengerjakan, jika waktu habis sebelum anda menyelesaikan quiz atau 3 kali kesempatan anda habis maka pengerjaan quiz anda akan di anggap gagal, setiap kelas terdapat jumlah quiz yang berbeda tergantung kelas."/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tentang Author"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="220dp"
+                    android:layout_height="220dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/fotouser"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:layout_margin="10dp"
+                    android:text="Author adalah mahasiswa semester akhir yang sedang menyelesaikan tugas akhir/skripsi."/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:layout_margin="10dp"
+                    android:text="Nama lengkap : Fadlur Rahman"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:layout_margin="10dp"
+                    android:text="NPM 201643501264"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:layout_margin="10dp"
+                    android:text="Email : fadlur612@gmail.com"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"
+                    android:layout_margin="10dp"
+                    android:text="HP : 087887777588"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

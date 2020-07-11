@@ -126,7 +126,7 @@
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/btn_materi"
-                    android:onClick="materi"
+                    android:onClick="tentang"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:layout_width="wrap_content"

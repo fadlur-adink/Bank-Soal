@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.crudtest.ActivityTentang;
 import com.example.crudtest.Adapter.SharedPrefManager;
 import com.example.crudtest.R;
 
@@ -66,8 +67,9 @@ public class HomeActivity extends AppCompatActivity{
         startActivity(myIntent);
     }
 
-    public void materi(View view){
-
+    public void tentang(View view){
+        Intent myIntent = new Intent(getBaseContext(), ActivityTentang.class);
+        startActivity(myIntent);
     }
 
     public void profile(View view){
