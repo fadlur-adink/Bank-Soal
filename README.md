@@ -35,7 +35,6 @@ Aplikasi ini terdiri dari 7 mata pelajaran umum untuk 6 kelas dari kelas 1 sampa
 
 ## What's Not Working
 
-- Menu Tentang masih belum di coding
 - Soal untuk kelas 6 masih kosong.
 
 ## Bagaimana Aplikasi Ini Bekerja
