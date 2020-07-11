@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ActivityTentang"></activity>
+        <activity android:name=".Activity.ActivityTentang"></activity>
         <activity android:name=".Activity.ListKelasActivity" />
         <activity android:name=".ListMapelMateriActivity" />
         <activity android:name=".Activity.ScoreActivity" />
