@@ -3,6 +3,7 @@ package com.example.crudtest.Activity;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -10,6 +11,8 @@ import android.widget.TextView;
 
 import com.example.crudtest.Adapter.SharedPrefManager;
 import com.example.crudtest.R;
+
+import java.util.concurrent.TimeUnit;
 
 public class HomeActivity extends AppCompatActivity{
 
@@ -20,6 +23,9 @@ public class HomeActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        MediaPlayer mpbenar = MediaPlayer.create(this, R.raw.selamatdatang);
+        mpbenar.start();
 
         if(!SharedPrefManager.getInstance(this).isLoggedIn()){
             finish();
@@ -86,7 +92,10 @@ public class HomeActivity extends AppCompatActivity{
         }
     }
 
-    public void keluar(View view){
+    public void keluar(View view) throws InterruptedException {
+        MediaPlayer mpkeluar = MediaPlayer.create(this, R.raw.keluar);
+        mpkeluar.start();
+        TimeUnit.SECONDS.sleep(3);
         finish();
         System.exit(0);
     }
