@@ -47,22 +47,22 @@ public class MulaiQuizActivity extends AppCompatActivity implements View.OnClick
         int kelas = SharedPrefManager.getInstance(getApplicationContext()).getUserKelas();
         int soalkelas = SharedPrefManager.getInstance(this).getSoalKelas();
         if(kelas == 1 || kelas == 7 && soalkelas == 1){
-            textViewwaktupengerjaan.setText("10 Menit");
-            textViewjumlahmapel.setText("25");
+            textViewwaktupengerjaan.setText("25 Menit");
+            textViewjumlahmapel.setText("50");
         }else if(kelas == 2 || kelas == 7 && soalkelas == 2){
-            textViewwaktupengerjaan.setText("10 Menit");
-            textViewjumlahmapel.setText("30");
+            textViewwaktupengerjaan.setText("25 Menit");
+            textViewjumlahmapel.setText("50");
         }else if(kelas == 3 || kelas == 7 && soalkelas == 3){
-            textViewwaktupengerjaan.setText("10 Menit");
-            textViewjumlahmapel.setText("35");
+            textViewwaktupengerjaan.setText("30 Menit");
+            textViewjumlahmapel.setText("50");
         }else if(kelas == 4 || kelas == 7 && soalkelas == 4){
-            textViewwaktupengerjaan.setText("10 Menit");
-            textViewjumlahmapel.setText("40");
+            textViewwaktupengerjaan.setText("35 Menit");
+            textViewjumlahmapel.setText("50");
         }else if(kelas == 5 || kelas == 7 && soalkelas == 5){
-            textViewwaktupengerjaan.setText("10 Menit");
-            textViewjumlahmapel.setText("45");
+            textViewwaktupengerjaan.setText("40 Menit");
+            textViewjumlahmapel.setText("50");
         }else if(kelas == 6 || kelas == 7 && soalkelas == 6){
-            textViewwaktupengerjaan.setText("10 Menit");
+            textViewwaktupengerjaan.setText("45 Menit");
             textViewjumlahmapel.setText("50");
         }
 

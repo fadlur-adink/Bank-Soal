@@ -75,22 +75,22 @@ public class QuizActivity extends AppCompatActivity {
         int soalkelass = SharedPrefManager.getInstance(this).getSoalKelas();
 
         if(kelas == 1 || kelas == 7 && soalkelass == 1){
-            START_TIME_IN_MILLIS = 600000;
+            START_TIME_IN_MILLIS = 1500000;
             mTimeLeftInMillis = START_TIME_IN_MILLIS;
         }else if(kelas == 2 || kelas == 7 && soalkelass == 2){
-            START_TIME_IN_MILLIS = 600000;
+            START_TIME_IN_MILLIS = 1500000;
             mTimeLeftInMillis = START_TIME_IN_MILLIS;
         }else if(kelas == 3 || kelas == 7 && soalkelass == 3){
-            START_TIME_IN_MILLIS = 600000;
+            START_TIME_IN_MILLIS = 1800000;
             mTimeLeftInMillis = START_TIME_IN_MILLIS;
         }else if(kelas == 4 || kelas == 7 && soalkelass == 4){
-            START_TIME_IN_MILLIS = 600000;
+            START_TIME_IN_MILLIS = 2100000;
             mTimeLeftInMillis = START_TIME_IN_MILLIS;
         }else if(kelas == 5 || kelas == 7 && soalkelass == 5){
-            START_TIME_IN_MILLIS = 600000;
+            START_TIME_IN_MILLIS = 2400000;
             mTimeLeftInMillis = START_TIME_IN_MILLIS;
         }else if(kelas == 6 || kelas == 7 && soalkelass == 6){
-            START_TIME_IN_MILLIS = 600000;
+            START_TIME_IN_MILLIS = 2700000;
             mTimeLeftInMillis = START_TIME_IN_MILLIS;
         }
 
@@ -213,15 +213,15 @@ public class QuizActivity extends AppCompatActivity {
         int soalKelas = SharedPrefManager.getInstance(this).getSoalKelas();
 
         if(kelas == 1 || kelas == 7 && soalKelas == 1){
-            limitSoalByKelas = 25;
+            limitSoalByKelas = 50;
         }else if(kelas == 2 || kelas == 7 && soalKelas == 2){
-            limitSoalByKelas = 30;
+            limitSoalByKelas = 50;
         }else if(kelas == 3 || kelas == 7 && soalKelas == 3){
-            limitSoalByKelas = 35;
+            limitSoalByKelas = 50;
         }else if(kelas == 4 || kelas == 7 && soalKelas == 4){
-            limitSoalByKelas = 40;
+            limitSoalByKelas = 50;
         }else if(kelas == 5 || kelas == 7 && soalKelas == 5){
-            limitSoalByKelas = 45;
+            limitSoalByKelas = 50;
         }else if(kelas == 6 || kelas == 7 && soalKelas == 6){
             limitSoalByKelas = 50;
         }
